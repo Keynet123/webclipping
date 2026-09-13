@@ -31,3 +31,26 @@
 .recipe_logo {
     border-radius: 20px;
 }
+
+
+.like {
+    background-image: url("../../assets/recipes/Ellipse\ 4.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    max-width: 48px;
+    min-height: 48px;
+
+    position: relative;
+    display: flex;
+    bottom: 400px;
+    left: 300px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.like_button {
+    fill: red;
+}
