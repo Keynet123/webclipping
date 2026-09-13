@@ -4,7 +4,14 @@ import InfoCard from "../InfoCard/InfoCard"
 import TimerIcon from "../../assets/icons/Timer.svg"
 import ForkKnifeIcon from "../../assets/icons/ForkKnife.svg"
 
-function Recipe(props) {
+interface RecipeInfo {
+    name: string,
+    logo: string,
+    time: string,
+    category: string
+}
+
+function Recipe(props: RecipeInfo) {
     return <>
         <div className="recipe_card">
             <img src={props.logo} className="recipe_logo"></img>

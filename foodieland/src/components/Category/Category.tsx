@@ -1,6 +1,12 @@
 import "./style.css"
 
-function Category(props) {
+interface CategoryInfo {
+    icon: string,
+    color: string,
+    text: string
+}
+
+function Category(props: CategoryInfo) {
     return <>
         <div className="category" style={{
             minHeight: "200px",

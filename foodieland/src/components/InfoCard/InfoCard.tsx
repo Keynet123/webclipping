@@ -1,6 +1,11 @@
 import "./styles.css"
 
-function InfoCard(props) {
+interface InfoCardData {
+    icon: string,
+    text: string
+}
+
+function InfoCard(props: InfoCardData) {
     return <>
         <div className="card">
             <img src={props.icon}></img>
