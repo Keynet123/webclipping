@@ -1,0 +1,39 @@
+
+.categories {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-width: 44%;
+}
+
+.catetor {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    word-spacing: -4%;
+    font-weight: 700;
+}
+
+.category_list {
+    display: flex;
+    gap: 50px;
+}
+
+.category_menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.view_category {
+    min-width: 200px;
+    min-height: 60px;
+    background-color: #E7FAFE;
+    border-radius: 16px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    word-spacing: -2%;
+    font-weight: 600;
+
+    margin-left: auto;
+}

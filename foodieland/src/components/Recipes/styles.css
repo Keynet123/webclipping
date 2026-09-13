@@ -1,0 +1,35 @@
+:root {
+    --desription-color: #00000099;
+}
+
+.recipes {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    row-gap: 30px;
+}
+
+.recipes_main {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    word-spacing: -4%;
+    font-weight: 600;
+}
+
+.recipes_desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--desription-color);
+    max-width: 700px;
+}
+
+.recipes_list {
+    margin-top: 80px;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}

@@ -1,0 +1,134 @@
+:root {
+  --desription-color: #00000099;
+}
+.featured {
+  background-color: #E7FAFE;
+  min-width: 44%;
+  min-height: 720px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.mask {
+  background-image: url('../../assets/mask1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  min-width: 44%;
+  min-height: 720px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  min-width: 100%;
+  margin: 80px 0px 0px 0px;
+  max-width: 100%;
+}
+
+.ad_text {
+  font-family: 'Inter', sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  max-width: 540px;
+  word-spacing: -4%;
+}
+
+.ad_description {
+  font-family: 'Inter', sans-serif;
+  color: var(--desription-color);
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 540px;
+}
+
+.content_featured {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  min-height: 670px;
+}
+
+.hot_recipes {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  border-radius: 30px;
+  min-height: 45px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  word-spacing: -2%;
+  font-weight: 600;
+  max-width: 158px;
+}
+
+.infocards {
+  display: flex;
+  gap:20px
+}
+
+.badge {
+  position: absolute;
+  top: 25%;
+  left: 47%;
+}
+
+.author {
+  display: flex;
+  gap:20px;
+}
+
+.author_menu {
+  margin-top: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.author_info {
+  display: grid;
+}
+
+.author_name {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  word-spacing: -2%;
+  font-weight: 700;
+}
+
+.author_date {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  word-spacing: -2%;
+  font-weight: 500;
+  color: var(--desription-color);
+}
+
+.view_button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 200px;
+  min-height: 60px;
+  background-color: black;
+  border-radius: 16px;
+  color: white;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  word-spacing: -2%;
+  font-weight: 600;
+}

@@ -1,0 +1,33 @@
+
+.recipe_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 400px;
+    min-height: 400px;
+    max-height: 434px;
+    background: linear-gradient(to top, #E7F9FD 0%, #E7F9FD00 100%);
+    padding: 10px 24px 10px 24px;
+    border-radius: 30px;
+    row-gap: 20px;
+}
+
+.recipe_info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe_name {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    word-spacing: -4%;
+    line-height: 32px;
+    font-weight: 600;
+    max-width: 352px;
+}
+
+.recipe_logo {
+    border-radius: 20px;
+}

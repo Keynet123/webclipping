@@ -1,0 +1,34 @@
+.logo_text {
+    font-family: 'Lobster', sans-serif;
+    font-size: 24px;
+}
+
+.header {
+    max-height: 110px;
+    min-height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px 80px 20px 80px;
+    columns: 3;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    column-gap: 60px;
+}
+
+.nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+
+.socials {
+    align-items: center;
+    display: flex;
+    column-gap: 40px;
+}

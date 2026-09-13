@@ -1,0 +1,26 @@
+.category {
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.category_name {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    word-spacing: -2%;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.category_slice {
+    min-width: 180px;
+    min-height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category_slice span {
+    margin-top: auto;
+}
